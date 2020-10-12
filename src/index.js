@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Main from './components/Main.js';
 import * as serviceWorker from './serviceWorker';
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Main />,
   document.getElementById('root')
 );
 
